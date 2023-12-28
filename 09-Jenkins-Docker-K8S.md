@@ -130,6 +130,7 @@ URL : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.h
 
 **Execute below commands to install AWS CLI**
 ```
+sudo apt install unzip 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
@@ -165,6 +166,8 @@ kubectl version --short --client
 	$ kubectl get nodes 
 
 **Note: We should be able to see EKS cluster nodes here.**
+incase error, update the iam policy of jenkins server...
+ 
 
 # Step - 10 : Create Jenkins CI Job #
 
